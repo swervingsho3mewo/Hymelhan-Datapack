@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "eatsalve": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:crossbow",
+                    "predicates": {
+                      "minecraft:custom_data": "{grapple:true}"
+                    }
+                  }
+            }
+        }
+    },
+    "rewards": {
+        "function": "hysteria:items/grapple/grapplestart"
+    }
+  } 

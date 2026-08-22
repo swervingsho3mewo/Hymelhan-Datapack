@@ -1,0 +1,2 @@
+execute if block ^ ^ ^0.01 enchanting_table positioned ^ ^ ^0.01 run function hysteria:enchantments/enchanting/place_table/summon
+execute positioned ^ ^ ^0.01 unless block ~ ~ ~ enchanting_table if entity @p[distance=..10] run function hysteria:enchantments/enchanting/place_table/check

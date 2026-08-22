@@ -1,0 +1,166 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star",
+      "count": 1
+    },
+    "title": {
+      "text": "Fallen Sky",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "It's raining... people? - Awoke from Skysleep",
+      "color": "green"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "hysteria:story/root",
+  "criteria": {
+    "attic_window": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 1378,
+                "max": 1381
+              },
+              "y": {
+                "min": 140,
+                "max": 141
+              },
+              "z": {
+                "min": 1310,
+                "max": 1312
+              }
+            }
+          }
+        }
+      }
+    },
+    "floor_window_1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 1385,
+                "max": 1388
+              },
+              "y": {
+                "min": 125,
+                "max": 129
+              },
+              "z": {
+                "min": 1303,
+                "max": 1307
+              }
+            }
+          }
+        }
+      }
+    },
+    "floor_window_2": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 1373,
+                "max": 1377
+              },
+              "y": {
+                "min": 126,
+                "max": 131
+              },
+              "z": {
+                "min": 1314,
+                "max": 1315
+              }
+            }
+          }
+        }
+      }
+    },
+    "floor_window_3": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 1365,
+                "max": 1366
+              },
+              "y": {
+                "min": 126,
+                "max": 131
+              },
+              "z": {
+                "min": 1303,
+                "max": 1307
+              }
+            }
+          }
+        }
+      }
+    },
+    "floor_window_4": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 1373,
+                "max": 1377
+              },
+              "y": {
+                "min": 126,
+                "max": 131
+              },
+              "z": {
+                "min": 1295,
+                "max": 1296
+              }
+            }
+          }
+        }
+      }
+    },
+    "door_exit": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 1373,
+                "max": 1377
+              },
+              "y": {
+                "min": 67,
+                "max": 73
+              },
+              "z": {
+                "min": 1312,
+                "max": 1314
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["attic_window", "floor_window_1", "floor_window_2", "floor_window_3", "floor_window_4", "door_exit"]
+  ],
+  "rewards": {
+    "recipes": []
+  }
+}

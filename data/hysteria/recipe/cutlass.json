@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " 2 ",
+    "32 ",
+    "31 "
+  ],
+  "key": {
+    "1": [
+      "stick"
+    ],
+    "2": [
+      "iron_ingot"
+    ],
+    "3": [
+      "minecraft:gold_nugget"
+    ]
+  },
+  "result": {
+    "id": "minecraft:golden_sword",
+    "components": {
+      "minecraft:item_model": "cutlass",
+      "minecraft:item_name": "{\"italic\":false,\"text\":\"Cutlass\"}",
+      "minecraft:lore": [
+        "\" \"",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"When in Main Hand:\"}",
+        "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 6.5 Attack Damage\"}",
+        "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 1.4 Attack Speed\"}"
+      ],
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:attack_damage",
+            "id": "attack_damage",
+            "amount": 5.5,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "type": "minecraft:attack_speed",
+            "id": "attack_speed",
+            "amount": -2.6,
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ],
+        "show_in_tooltip": false
+      },
+      "minecraft:max_damage": 200
+    },
+    "count": 1
+  },
+  "show_notification": true
+}

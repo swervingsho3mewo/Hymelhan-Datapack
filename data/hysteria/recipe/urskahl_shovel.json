@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    " 2 ",
+    " 2 "
+  ],
+  "key": {
+    "1": "minecraft:netherite_ingot",
+    "2": "stick"
+  },
+  "result": {
+    "id": "minecraft:netherite_shovel"
+  }
+}

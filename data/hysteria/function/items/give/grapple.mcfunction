@@ -1,0 +1,2 @@
+give @p crossbow[custom_name='{"bold":true,"color":"dark_green","italic":false,"text":"Grappling Crossbow"}',lore=['{"color":"gray","italic":false,"text":"A tool created by the Azlonans that"}','{"color":"gray","italic":false,"text":"is able to swiftly pull the user"}','{"color":"gray","italic":false,"text":"towards the location where the"}','{"color":"gray","italic":false,"text":"arrow landed."}','" "','{"bold":true,"color":"dark_green","italic":false,"text":"Rare"}'],custom_data={grapple:true},item_model="grappling_hook"] 1
+give @p arrow 16

@@ -1,0 +1,154 @@
+{
+  "criteria": {
+    "north_exit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 3272,
+                "max": 3661
+              },
+              "y": {
+                "min": -17,
+                "max": 117
+              },
+              "z": {
+                "min": 1887,
+                "max": 1936
+              }
+            },
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    },
+    "south_exit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 3272,
+                "max": 3661
+              },
+              "y": {
+                "min": -17,
+                "max": 117
+              },
+              "z": {
+                "min": 1605,
+                "max": 1654
+              }
+            },
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    },
+    "west_exit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 3222,
+                "max": 3271
+              },
+              "y": {
+                "min": -17,
+                "max": 117
+              },
+              "z": {
+                "min": 1655,
+                "max": 1886
+              }
+            },
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    },
+    "east_exit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 3662,
+                "max": 3711
+              },
+              "y": {
+                "min": -17,
+                "max": 117
+              },
+              "z": {
+                "min": 1655,
+                "max": 1886
+              }
+            },
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    },
+    "above_exit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 3272,
+                "max": 3661
+              },
+              "y": {
+                "min": 118,
+                "max": 167
+              },
+              "z": {
+                "min": 1655,
+                "max": 1886
+              }
+            },
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    },
+    "below_exit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 3272,
+                "max": 3661
+              },
+              "y": {
+                "min": -67,
+                "max": -18
+              },
+              "z": {
+                "min": 1655,
+                "max": 1886
+              }
+            },
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["north_exit", "south_exit", "west_exit", "east_exit", "above_exit", "below_exit"]
+  ],
+  "rewards": {
+    "function": "hysteria:locations/pois/maegard/wurm/exit_adventurezone"
+  }
+}

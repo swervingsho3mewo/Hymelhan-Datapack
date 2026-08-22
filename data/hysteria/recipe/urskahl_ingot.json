@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "1"
+  ],
+  "key": {
+    "1": "minecraft:netherite_block"
+  },
+  "result": {
+    "id": "minecraft:netherite_ingot",
+    "count": 9
+  }
+}

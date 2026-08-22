@@ -1,0 +1,154 @@
+{
+  "criteria": {
+    "north_exit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 1550,
+                "max": 1560
+              },
+              "y": {
+                "min": 32,
+                "max": 78
+              },
+              "z": {
+                "min": 1949,
+                "max": 1954
+              }
+            },
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    },
+    "south_exit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 1550,
+                "max": 1560
+              },
+              "y": {
+                "min": 38,
+                "max": 84
+              },
+              "z": {
+                "min": 1975,
+                "max": 1980
+              }
+            },
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    },
+    "west_exit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 1545,
+                "max": 1550
+              },
+              "y": {
+                "min": 32,
+                "max": 78
+              },
+              "z": {
+                "min": 1949,
+                "max": 1974
+              }
+            },
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    },
+    "east_exit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 1566,
+                "max": 1571
+              },
+              "y": {
+                "min": 38,
+                "max": 84
+              },
+              "z": {
+                "min": 1955,
+                "max": 1980
+              }
+            },
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    },
+    "above_exit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 1556,
+                "max": 1566
+              },
+              "y": {
+                "min": 79,
+                "max": 84
+              },
+              "z": {
+                "min": 1955,
+                "max": 1980
+              }
+            },
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    },
+    "below_exit": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 1550,
+                "max": 1560
+              },
+              "y": {
+                "min": 32,
+                "max": 37
+              },
+              "z": {
+                "min": 1949,
+                "max": 1974
+              }
+            },
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["north_exit", "south_exit", "west_exit", "east_exit", "above_exit", "below_exit"]
+  ],
+  "rewards": {
+    "function": "hysteria:locations/pois/storwood/campsite/exit_adventurezone"
+  }
+}

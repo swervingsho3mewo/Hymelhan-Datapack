@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:overworld",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "hysteria:dead_world",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "height": 0,
+          "block": "air"
+        }
+      ]
+    }
+  }
+}

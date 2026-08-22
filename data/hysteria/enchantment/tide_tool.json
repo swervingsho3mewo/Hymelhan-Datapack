@@ -1,0 +1,40 @@
+{
+  "anvil_cost": 0,
+  "description": "Tide",
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 4,
+          "per_level_above_first": 4
+        },
+        "attribute": "minecraft:submerged_mining_speed",
+        "id": "hysteria:tide_tool",
+        "operation": "add_multiplied_total"
+      }
+    ],
+    "minecraft:hit_block": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "hysteria:enchantments/tide_tool/tick"
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#hysteria:tools",
+  "weight": 1
+}

@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "   ",
+    "111",
+    " 2 "
+  ],
+  "key": {
+    "1": "#minecraft:planks",
+    "2": "stick"
+  },
+  "result": {
+    "id": "minecraft:wooden_pickaxe",
+    "components": {
+      "minecraft:item_name": "{\"italic\":false,\"text\":\"Wooden Hammer\"}",
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "#minecraft:mineable/shovel"
+          },
+          {
+            "blocks": "#minecraft:mineable/pickaxe",
+            "correct_for_drops": true
+          },
+          {
+            "blocks": "#minecraft:mineable/axe"
+          }
+        ],
+        "default_mining_speed": 2,
+        "damage_per_block": 5
+      },
+      "minecraft:item_model": "wooden_hammer",
+      "minecraft:custom_data": {
+        "weapon_type": "hammer"
+      }
+    },
+    "count": 1
+  }
+}

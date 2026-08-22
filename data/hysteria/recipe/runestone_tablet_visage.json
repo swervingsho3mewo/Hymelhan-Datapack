@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "carved_runestone",
+  "category": "misc",
+  "pattern": [
+    "423",
+    "212",
+    "324"
+  ],
+  "key": {
+    "1": "minecraft:netherite_upgrade_smithing_template",
+    "2": "minecraft:glass",
+    "3": "minecraft:spider_eye",
+    "4": "minecraft:spyglass"
+  },
+  "result": {
+    "id": "minecraft:netherite_upgrade_smithing_template",
+    "components": {
+      "minecraft:custom_data": {
+        "runes": [
+          "visage"
+        ]
+      },
+      "minecraft:item_name": "{\"color\":\"aqua\",\"extra\":[{\"color\":\"aqua\",\"font\":\"minecraft:sprite\",\"italic\":false,\"text\":\"\\u00f8\"},{\"italic\":false,\"text\":\"]\"}],\"italic\":false,\"text\":\"Runestone Tablet [\"}",
+      "minecraft:hide_additional_tooltip": {},
+      "minecraft:item_model": "minecraft:runestone_tablet_visage",
+      "minecraft:lore": [
+        "{\"color\":\"dark_gray\",\"text\":\"Use at an engraving table to \"}",
+        "{\"color\":\"dark_gray\",\"extra\":[{\"color\":\"blue\",\"text\":\"Visage\"},{\"color\":\"dark_gray\",\"text\":\" rune onto an \"}],\"text\":\"carve the \"}",
+        "{\"color\":\"dark_gray\",\"text\":\"applicable item.\"}",
+        "\"\"",
+        "{\"color\":\"gray\",\"extra\":[{\"color\":\"blue\",\"italic\":false,\"text\":\"Bows, \"}],\"italic\":false,\"text\":\"Applicable Weapons: \"}",
+        "{\"color\":\"blue\",\"italic\":false,\"text\":\"Crossbows\"}",
+        "{\"color\":\"gray\",\"extra\":[{\"color\":\"blue\",\"italic\":false,\"text\":\"Helmets \"}],\"italic\":false,\"text\":\"Applicable Armor: \"}",
+        "\"\"",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"When on Weapons:\"}",
+        "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" Attacks will inflict glowing \"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"When on Armor:\"}",
+        "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" Nearby enemies will glow \"}"
+      ],
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

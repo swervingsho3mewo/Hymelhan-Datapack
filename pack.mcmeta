@@ -1,0 +1,180 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "The main datapack for the Hysteria adventure map!"
+  },
+	"filter": {
+		"block": [{
+			"namespace": "minecraft",
+			"path": "recipe/dark_prismarine.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/prismarine_bricks.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/sea_lantern.json"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/netherite"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/terracotta"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/white_terracotta"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/light_gray_terracotta"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/gray_terracotta"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/black_terracotta"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/brown_terracotta"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/red_terracotta"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/orange_terracotta"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/yellow_terracotta"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/lime_terracotta"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/green_terracotta"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/cyan_terracotta"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/light_blue_terracotta"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/blue_terracotta"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/purple_terracotta"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/magenta_terracotta"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/pink_terracotta"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/white_glazed_terracotta"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/light_gray_glazed_terracotta"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/gray_glazed_terracotta"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/black_glazed_terracotta"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/brown_glazed_terracotta"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/red_glazed_terracotta"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/orange_glazed_terracotta"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/yellow_glazed_terracotta"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/lime_glazed_terracotta"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/green_glazed_terracotta"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/cyan_glazed_terracotta"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/light_blue_glazed_terracotta"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/blue_glazed_terracotta"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/purple_glazed_terracotta"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/magenta_glazed_terracotta"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/pink_glazed_terracotta"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/stone_bricks"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/smooth_stone"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/bundle"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/white_bundle"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/light_gray_bundle"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/gray_bundle"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/black_bundle"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/brown_bundle"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/red_bundle"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/orange_bundle"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/yellow_bundle"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/lime_bundle"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/green_bundle"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/cyan_bundle"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/light_blue_bundle"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/blue_bundle"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/purple_bundle"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/magenta_bundle"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/pink_bundle"
+		},{
+			"namespace": "minecraft",
+			"path": "recipe/shield"
+		}]
+	}
+}

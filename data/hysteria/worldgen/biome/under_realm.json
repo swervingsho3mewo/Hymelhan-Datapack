@@ -1,0 +1,24 @@
+{
+  "temperature": 100,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 2800847,
+    "fog_color": 1544729,
+    "water_color": 12718054,
+    "water_fog_color": 13994970,
+    "grass_color": 65484,
+    "foliage_color": 7208416,
+    "particle": {
+      "options": {
+        "type": "minecraft:block_crumble",
+        "block_state": "minecraft:moss_block"
+      },
+      "probability": 0.001
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": [],
+  "features": []
+}

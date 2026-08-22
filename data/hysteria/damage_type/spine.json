@@ -1,0 +1,7 @@
+{
+    "death_message_type": "default",
+    "message_id": "spine",
+    "exhaustion": 0.1,
+    "scaling": "never",
+    "effects": "thorns"
+}

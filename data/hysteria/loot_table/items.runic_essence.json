@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:lore": [
+                  "{\"text\":\"A small, glowing orb left over from\"}",
+                  "{\"text\":\"a passed being. They are often\"}",
+                  "{\"text\":\"highly valued by merchants and\"}",
+                  "{\"text\":\"arcanists, having many applications. \"}"
+                ],
+                "minecraft:custom_name": "{\"color\":\"aqua\",\"italic\":false,\"text\":\"Runic Essence\"}",
+                "minecraft:item_model": "runic_essence",
+                "minecraft:enchantment_glint_override": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

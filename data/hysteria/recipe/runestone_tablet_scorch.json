@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "carved_runestone",
+  "category": "misc",
+  "pattern": [
+    "324",
+    "212",
+    "423"
+  ],
+  "key": {
+    "1": "minecraft:netherite_upgrade_smithing_template",
+    "2": "minecraft:magma_block",
+    "3": "minecraft:blaze_powder",
+    "4": "minecraft:fire_charge"
+  },
+  "result": {
+    "id": "minecraft:netherite_upgrade_smithing_template",
+    "components": {
+      "minecraft:custom_data": {
+        "runes": [
+          "scorch"
+        ]
+      },
+      "minecraft:item_name": "{\"color\":\"aqua\",\"extra\":[{\"color\":\"aqua\",\"font\":\"minecraft:sprite\",\"italic\":false,\"text\":\"\\u00a1\"},{\"italic\":false,\"text\":\"]\"}],\"italic\":false,\"text\":\"Runestone Tablet [\"}",
+      "minecraft:hide_additional_tooltip": {},
+      "minecraft:item_model": "minecraft:runestone_tablet_scorch",
+      "minecraft:lore": [
+        "{\"color\":\"dark_gray\",\"text\":\"Use at an engraving table to\"}",
+        "{\"color\":\"dark_gray\",\"extra\":[{\"color\":\"blue\",\"text\":\"Scorch\"},{\"color\":\"dark_gray\",\"text\":\" rune onto an\"}],\"text\":\"carve the \"}",
+        "{\"color\":\"dark_gray\",\"text\":\"applicable item.\"}",
+        "\"\"",
+        "{\"color\":\"gray\",\"extra\":[{\"color\":\"blue\",\"italic\":false,\"text\":\"Swords,\"}],\"italic\":false,\"text\":\"Applicable Weapons: \"}",
+        "{\"color\":\"blue\",\"italic\":false,\"text\":\"Longswords, Broadswords\"}",
+        "{\"color\":\"gray\",\"extra\":[{\"color\":\"blue\",\"italic\":false,\"text\":\"Pickaxes,\"}],\"italic\":false,\"text\":\"Applicable Tools: \"}",
+        "{\"color\":\"blue\",\"italic\":false,\"text\":\"Axes, Shovels, Hammers, Hoes\"}",
+        "\"\"",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"When on Weapons:\"}",
+        "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" +50% chance to ignite enemies \"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"When on Tools:\"}",
+        "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" Mined blocks will be smelted \"}"
+      ],
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

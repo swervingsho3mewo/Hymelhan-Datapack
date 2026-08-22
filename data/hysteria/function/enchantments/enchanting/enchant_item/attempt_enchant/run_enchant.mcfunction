@@ -1,0 +1,3 @@
+$execute if data entity @s Item.components."minecraft:custom_data"{rune:["$(rune_name)"]} at @s run tellraw @a[distance=..20] [{"bold":true,"color":"dark_purple","italic":false,"text":"[Engraving Table]: "},{"bold":false,"color":"white","italic":false,"text":"Could not apply rune: Item already has $(rune_name)!"}]
+$execute if data entity @s Item.components."minecraft:custom_data"{rune:["$(rune_name)"]} at @s run function hysteria:enchantments/enchanting/enchant_item/attempt_enchant/failed_enchant
+$execute unless data entity @s Item.components."minecraft:custom_data"{rune:["$(rune_name)"]} at @s run function hysteria:enchantments/enchanting/enchant_item/enchantment_checks/$(rune_name)

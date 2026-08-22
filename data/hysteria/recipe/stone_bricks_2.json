@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "11 ",
+    "11 ",
+    "   "
+  ],
+  "key": {
+    "1": [
+      "smooth_stone"
+    ]
+  },
+  "result": {
+    "id": "minecraft:stone_bricks",
+    "count": 4
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "carved_runestone",
+  "category": "misc",
+  "pattern": [
+    "324",
+    "212",
+    "423"
+  ],
+  "key": {
+    "1": "minecraft:netherite_upgrade_smithing_template",
+    "2": "minecraft:dark_prismarine",
+    "3": "minecraft:dried_kelp_block",
+    "4": "minecraft:water_bucket"
+  },
+  "result": {
+    "id": "minecraft:netherite_upgrade_smithing_template",
+    "components": {
+      "minecraft:custom_data": {
+        "runes": [
+          "tide"
+        ]
+      },
+      "minecraft:item_name": "{\"color\":\"aqua\",\"extra\":[{\"color\":\"aqua\",\"font\":\"minecraft:sprite\",\"italic\":false,\"text\":\"\\u00ad\"},{\"italic\":false,\"text\":\"]\"}],\"italic\":false,\"text\":\"Runestone Tablet [\"}",
+      "minecraft:hide_additional_tooltip": {},
+      "minecraft:item_model": "minecraft:runestone_tablet_tide",
+      "minecraft:lore": [
+        "{\"color\":\"dark_gray\",\"text\":\"Use at an engraving table to \"}",
+        "{\"color\":\"dark_gray\",\"extra\":[{\"color\":\"blue\",\"text\":\"Tide\"},{\"color\":\"dark_gray\",\"text\":\" rune onto an\"}],\"text\":\"carve the \"}",
+        "{\"color\":\"dark_gray\",\"text\":\"applicable item.\"}",
+        "\"\"",
+        "{\"color\":\"gray\",\"extra\":[{\"color\":\"blue\",\"italic\":false,\"text\":\"Pickaxes,\"}],\"italic\":false,\"text\":\"Applicable Tools: \"}",
+        "{\"color\":\"blue\",\"italic\":false,\"text\":\"Axes, Shovels, Hammers, Hoes \"}",
+        "{\"color\":\"gray\",\"extra\":[{\"color\":\"blue\",\"italic\":false,\"text\":\"Helmets,\"}],\"italic\":false,\"text\":\"Applicable Armor: \"}",
+        "{\"color\":\"blue\",\"italic\":false,\"text\":\"Boots\"}",
+        "\"\"",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"When on Tools:\"}",
+        "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" +0.8 underwater mining speed \"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"When on Helmets:\"}",
+        "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" +30 seconds of respiration \"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"When on Boots:\"}",
+        "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" +75% swimming speed \"}"
+      ],
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#minecraft:logs",
+    "#minecraft:iron_ores",
+    "#minecraft:gold_ores",
+    "#minecraft:copper_ores",
+    "minecraft:stone_bricks"
+  ]
+}

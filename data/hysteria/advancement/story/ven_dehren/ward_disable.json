@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tinted_glass"
+    },
+    "title": "Magic Technician",
+    "description": "Unlocking the secrets of Ven’Eihn, one fuse at a time - Disabled the Ven'Dehren ward",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "e": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "hysteria:story/ven_dehren/ward_disable"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "anvil_cost": 1,
+  "description": "Cleave",
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 3,
+          "per_level_above_first": 1
+        },
+        "attribute": "minecraft:attack_damage",
+        "id": "hysteria:cleave",
+        "operation": "add_value"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#hysteria:weapons_melee",
+  "weight": 1
+}

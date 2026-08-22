@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "12",
+    "21"
+  ],
+  "key": {
+    "1": [
+      "minecraft:brown_mushroom",
+      "minecraft:warped_fungus"
+    ],
+    "2": [
+      "minecraft:moss_block"
+    ]
+  },
+  "result": {
+    "id": "minecraft:warped_wart_block",
+    "count": 1
+  }
+}

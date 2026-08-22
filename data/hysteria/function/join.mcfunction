@@ -1,0 +1,1 @@
+execute unless score @s global.player.id = @s global.player.id store result score @s global.player.id run scoreboard players add #next global.player.id 1

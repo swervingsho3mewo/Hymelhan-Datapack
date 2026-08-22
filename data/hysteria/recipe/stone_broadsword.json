@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " 1 ",
+    "111",
+    " 2 "
+  ],
+  "key": {
+    "1": "#minecraft:stone_tool_materials",
+    "2": "stick"
+  },
+  "result": {
+    "id": "minecraft:stone_sword",
+    "components": {
+      "minecraft:item_name": "{\"italic\":false,\"text\":\"Stone Broadsword\"}",
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:attack_damage",
+            "id": "attack_damage",
+            "amount": 9,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "type": "minecraft:attack_speed",
+            "id": "attack_speed",
+            "amount": -3.25,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "type": "minecraft:entity_interaction_range",
+            "id": "entity_interaction_range",
+            "amount": -0.5,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "type": "minecraft:sweeping_damage_ratio",
+            "id": "sweeping_damage_ratio",
+            "amount": 100,
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ],
+        "show_in_tooltip": false
+      },
+      "minecraft:lore": [
+        "{\"text\":\"\"}",
+        "{\"italic\":false,\"color\":\"gray\",\"text\":\"When in Main Hand:\"}",
+        "{\"italic\":false,\"color\":\"dark_green\",\"text\":\" 9 Attack Damage\"}",
+        "{\"italic\":false,\"color\":\"dark_green\",\"text\":\" 0.75 Attack Speed\"}",
+        "{\"italic\":false,\"color\":\"dark_green\",\"text\":\" 2.5 Attack Range\"}"
+      ],
+      "minecraft:item_model": "stone_broadsword",
+      "minecraft:custom_data": {
+        "weapon_type": "broadsword"
+      }
+    },
+    "count": 1
+  }
+}

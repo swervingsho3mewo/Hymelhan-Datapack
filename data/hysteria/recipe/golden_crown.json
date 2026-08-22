@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "222",
+    "111"
+  ],
+  "key": {
+    "1": "minecraft:gold_ingot",
+    "2": "minecraft:gold_nugget"
+  },
+  "result": {
+    "id": "minecraft:golden_helmet",
+    "components": {
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:armor",
+            "id": "armor",
+            "amount": 2,
+            "operation": "add_value",
+            "slot": "head"
+          }
+        ],
+        "show_in_tooltip": false
+      },
+      "minecraft:item_name": "{\"italic\":false,\"text\":\"Golden Crown\"}",
+      "minecraft:equippable": {
+        "asset_id": "minecraft:golden_crown",
+        "equip_sound": "minecraft:item.armor.equip_gold",
+        "slot": "head"
+      },
+      "minecraft:item_model": "minecraft:golden_crown",
+      "minecraft:lore": [
+        "\" \"",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"When on Head:\"}",
+        "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" +2 Armor\"}"
+      ]
+    }
+  }
+}

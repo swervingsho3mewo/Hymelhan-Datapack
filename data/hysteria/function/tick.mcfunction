@@ -1,0 +1,8 @@
+function hysteria:savecoords
+
+execute as @a[nbt={SelectedItem:{id:"minecraft:crossbow",count:1,components:{"minecraft:custom_data":{grapple:true},"minecraft:charged_projectiles":[{id:"minecraft:arrow",count:1}]}}}] unless entity @s[tag=global.items.grapple.player] run item replace entity @s weapon.mainhand with crossbow[custom_name='{"bold":true,"color":"dark_green","italic":false,"text":"Grappling Crossbow"}',lore=['{"color":"gray","italic":false,"text":"A tool created by the Azlonans that"}','{"color":"gray","italic":false,"text":"is able to swiftly pull the user"}','{"color":"gray","italic":false,"text":"towards the location where the"}','{"color":"gray","italic":false,"text":"arrow landed."}','" "','{"bold":true,"color":"dark_green","italic":false,"text":"Rare"}'],item_model=grappling_hook,custom_data={grapple:true},charged_projectiles=[{id:"minecraft:tipped_arrow",count:1,components:{"minecraft:potion_contents":{potion:"minecraft:awkward",custom_color:0}}}]] 1
+execute as @a[nbt={SelectedItem:{id:"minecraft:crossbow",count:1,components:{"minecraft:custom_data":{grapple:true}}}}] at @s if entity @e[type=arrow,distance=..5] unless entity @s[tag=global.items.grapple.player] run function hysteria:items/grapple/start
+
+execute as @a store result score @s global.player.health run data get entity @s Health
+
+execute as @a if score @s settings matches 1.. run function hysteria:global/settings/trigger

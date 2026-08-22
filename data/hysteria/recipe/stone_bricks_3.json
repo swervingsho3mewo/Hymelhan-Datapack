@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": [
+    "minecraft:cracked_stone_bricks"
+  ],
+  "result": {
+    "id": "stone_bricks"
+  },
+  "cookingtime": 200,
+  "experience": 0.1
+}

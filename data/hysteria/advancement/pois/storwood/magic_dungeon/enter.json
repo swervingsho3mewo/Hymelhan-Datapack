@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "entered_zone": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": { "min": 1395, "max": 1397 },
+              "y": { "min": 58, "max": 61 },
+              "z": { "min": 1567, "max": 1569 }
+            },
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hysteria:locations/pois/storwood/magic_dungeon/enter"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "carved_runestone",
+  "category": "misc",
+  "pattern": [
+    "423",
+    "212",
+    "324"
+  ],
+  "key": {
+    "1": "minecraft:netherite_upgrade_smithing_template",
+    "2": "minecraft:copper_ingot",
+    "3": "minecraft:sugar",
+    "4": "minecraft:rabbit_foot"
+  },
+  "result": {
+    "id": "minecraft:netherite_upgrade_smithing_template",
+    "components": {
+      "minecraft:custom_data": {
+        "runes": [
+          "haste"
+        ]
+      },
+      "minecraft:item_name": "{\"color\":\"aqua\",\"extra\":[{\"color\":\"aqua\",\"font\":\"minecraft:sprite\",\"italic\":false,\"text\":\"\\u00d8\"},{\"italic\":false,\"text\":\"]\"}],\"italic\":false,\"text\":\"Runestone Tablet [\"}",
+      "minecraft:hide_additional_tooltip": {},
+      "minecraft:item_model": "minecraft:runestone_tablet_haste",
+      "minecraft:lore": [
+        "{\"color\":\"dark_gray\",\"text\":\"Use at an engraving table to \"}",
+        "{\"color\":\"dark_gray\",\"extra\":[{\"color\":\"blue\",\"text\":\"Haste\"},{\"color\":\"dark_gray\",\"text\":\" rune onto an \"}],\"text\":\"carve the \"}",
+        "{\"color\":\"dark_gray\",\"text\":\"applicable item.\"}",
+        "\"\"",
+        "{\"color\":\"gray\",\"extra\":[{\"color\":\"blue\",\"italic\":false,\"text\":\"Pickaxes, \"}],\"italic\":false,\"text\":\"Applicable Tools: \"}",
+        "{\"color\":\"blue\",\"italic\":false,\"text\":\"Axes, Shovels, Hammers, Hoes \"}",
+        "{\"color\":\"gray\",\"extra\":[{\"color\":\"blue\",\"italic\":false,\"text\":\"Leggings, \"}],\"italic\":false,\"text\":\"Applicable Armor: \"}",
+        "{\"color\":\"blue\",\"italic\":false,\"text\":\"Boots\"}",
+        "\"\"",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"When on Tools:\"}",
+        "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" +10 Mining Efficency \"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"When on Armor:\"}",
+        "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" +0.01 Movement Speed \"}"
+      ],
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

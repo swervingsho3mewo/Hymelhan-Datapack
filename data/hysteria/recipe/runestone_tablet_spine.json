@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "carved_runestone",
+  "category": "misc",
+  "pattern": [
+    "423",
+    "212",
+    "324"
+  ],
+  "key": {
+    "1": "minecraft:netherite_upgrade_smithing_template",
+    "2": "minecraft:dripstone_block",
+    "3": "minecraft:arrow",
+    "4": "minecraft:pointed_dripstone"
+  },
+  "result": {
+    "id": "minecraft:netherite_upgrade_smithing_template",
+    "components": {
+      "minecraft:custom_data": {
+        "runes": [
+          "spine"
+        ]
+      },
+      "minecraft:item_name": "{\"color\":\"aqua\",\"extra\":[{\"color\":\"aqua\",\"font\":\"minecraft:sprite\",\"italic\":false,\"text\":\"\\u0391\"},{\"italic\":false,\"text\":\"]\"}],\"italic\":false,\"text\":\"Runestone Tablet [\"}",
+      "minecraft:hide_additional_tooltip": {},
+      "minecraft:item_model": "minecraft:runestone_tablet_spine",
+      "minecraft:lore": [
+        "{\"color\":\"dark_gray\",\"text\":\"Use at an engraving table to \"}",
+        "{\"color\":\"dark_gray\",\"extra\":[{\"color\":\"blue\",\"text\":\"Spine\"},{\"color\":\"dark_gray\",\"text\":\" rune onto an \"}],\"text\":\"carve the \"}",
+        "{\"color\":\"dark_gray\",\"text\":\"applicable item.\"}",
+        "\"\"",
+        "{\"color\":\"gray\",\"extra\":[{\"color\":\"blue\",\"italic\":false,\"text\":\"Bows, \"}],\"italic\":false,\"text\":\"Applicable Weapons: \"}",
+        "{\"color\":\"blue\",\"italic\":false,\"text\":\"Crossbows\"}",
+        "{\"color\":\"gray\",\"extra\":[{\"color\":\"blue\",\"italic\":false,\"text\":\"Helmets, \"}],\"italic\":false,\"text\":\"Applicable Armor: \"}",
+        "{\"color\":\"blue\",\"italic\":false,\"text\":\"Chestplates, Leggings\"}",
+        "\"\"",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"When on Weapons:\"}",
+        "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" +3 Arrow Damage \"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"When on Amor:\"}",
+        "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" Attacking enemies take extra \"}",
+        "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" damage \"}"
+      ],
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

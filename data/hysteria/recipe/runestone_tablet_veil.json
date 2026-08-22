@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "carved_runestone",
+  "category": "misc",
+  "pattern": [
+    "223",
+    "212",
+    "322"
+  ],
+  "key": {
+    "1": "minecraft:netherite_upgrade_smithing_template",
+    "2": "minecraft:tinted_glass",
+    "3": "minecraft:spider_eye"
+  },
+  "result": {
+    "id": "minecraft:netherite_upgrade_smithing_template",
+    "components": {
+      "minecraft:custom_data": {
+        "runes": [
+          "veil"
+        ]
+      },
+      "minecraft:item_name": "{\"color\":\"aqua\",\"extra\":[{\"color\":\"aqua\",\"font\":\"minecraft:sprite\",\"italic\":false,\"text\":\"\\u0394\"},{\"italic\":false,\"text\":\"]\"}],\"italic\":false,\"text\":\"Runestone Tablet [\"}",
+      "minecraft:hide_additional_tooltip": {},
+      "minecraft:item_model": "minecraft:runestone_tablet_veil",
+      "minecraft:lore": [
+        "{\"color\":\"dark_gray\",\"text\":\"Use at an engraving table to \"}",
+        "{\"color\":\"dark_gray\",\"extra\":[{\"color\":\"blue\",\"text\":\"Veil\"},{\"color\":\"dark_gray\",\"text\":\" rune onto an \"}],\"text\":\"carve the \"}",
+        "{\"color\":\"dark_gray\",\"text\":\"applicable item.\"}",
+        "\"\"",
+        "{\"color\":\"gray\",\"extra\":[{\"color\":\"blue\",\"italic\":false,\"text\":\"Daggers \"}],\"italic\":false,\"text\":\"Applicable Weapons: \"}",
+        "{\"color\":\"gray\",\"extra\":[{\"color\":\"blue\",\"italic\":false,\"text\":\"Helmets \"}],\"italic\":false,\"text\":\"Applicable Armor: \"}",
+        "\"\"",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"When on Weapons:\"}",
+        "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" +6 seconds of invisibility and \"}",
+        "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" speed after killing an enemy \"}",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"When on Armor:\"}",
+        "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" Grants invisibility\"}",
+        "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" sight\"}"
+      ],
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

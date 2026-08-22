@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "carved_runestone",
+  "category": "misc",
+  "pattern": [
+    "323",
+    "212",
+    "323"
+  ],
+  "key": {
+    "1": "minecraft:netherite_upgrade_smithing_template",
+    "2": "minecraft:obsidian",
+    "3": "minecraft:diamond"
+  },
+  "result": {
+    "id": "minecraft:netherite_upgrade_smithing_template",
+    "components": {
+      "minecraft:custom_data": {
+        "": [
+          "adamant"
+        ],
+        "runes": [
+          "adamant"
+        ]
+      },
+      "minecraft:item_name": "{\"color\":\"aqua\",\"extra\":[{\"color\":\"aqua\",\"font\":\"minecraft:sprite\",\"italic\":false,\"text\":\"\\u20b4\"},{\"italic\":false,\"text\":\"]\"}],\"italic\":false,\"text\":\"Runestone Tablet [\"}",
+      "minecraft:hide_additional_tooltip": {},
+      "minecraft:item_model": "minecraft:runestone_tablet_adamant",
+      "minecraft:lore": [
+        "{\"color\":\"dark_gray\",\"text\":\"Use at an engraving table to \"}",
+        "{\"color\":\"dark_gray\",\"extra\":[{\"color\":\"blue\",\"text\":\"Adamant\"},{\"color\":\"dark_gray\",\"text\":\" rune onto an \"}],\"text\":\"carve the \"}",
+        "{\"color\":\"dark_gray\",\"text\":\"applicable item.\"}",
+        "\"\"",
+        "{\"color\":\"gray\",\"extra\":[{\"color\":\"blue\",\"italic\":false,\"text\":\"Any Weapon,\"}],\"italic\":false,\"text\":\"Applicable Items: \"}",
+        "{\"color\":\"blue\",\"italic\":false,\"text\":\"Tool, or Armor \"}",
+        "\"\"",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"When on Anything:\"}",
+        "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" The item will be unbreakable \"}"
+      ],
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

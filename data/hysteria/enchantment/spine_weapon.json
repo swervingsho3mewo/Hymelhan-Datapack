@@ -1,0 +1,36 @@
+{
+  "description": "Spine",
+  "supported_items": "#hysteria:weapons_ranged",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand",
+    "offhand"
+  ],
+  "effects": {
+    "minecraft:damage": [
+      {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "direct_attacker",
+          "predicate": {
+            "type": "#minecraft:arrows"
+          }
+        },
+        "effect": {
+          "type": "minecraft:add",
+          "value": 1.5
+        }
+      }
+    ]
+  }
+}

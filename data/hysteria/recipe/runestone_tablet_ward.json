@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "carved_runestone",
+  "category": "misc",
+  "pattern": [
+    "423",
+    "212",
+    "324"
+  ],
+  "key": {
+    "1": "minecraft:netherite_upgrade_smithing_template",
+    "2": "minecraft:stone_bricks",
+    "3": "minecraft:iron_block",
+    "4": "minecraft:gold_ingot"
+  },
+  "result": {
+    "id": "minecraft:netherite_upgrade_smithing_template",
+    "components": {
+      "minecraft:custom_data": {
+        "runes": [
+          "ward"
+        ]
+      },
+      "minecraft:item_name": "{\"color\":\"aqua\",\"extra\":[{\"color\":\"aqua\",\"font\":\"minecraft:sprite\",\"italic\":false,\"text\":\"\\u00b7\"},{\"italic\":false,\"text\":\"]\"}],\"italic\":false,\"text\":\"Runestone Tablet [\"}",
+      "minecraft:hide_additional_tooltip": {},
+      "minecraft:item_model": "minecraft:runestone_tablet_ward",
+      "minecraft:lore": [
+        "{\"color\":\"dark_gray\",\"text\":\"Use at an engraving table to \"}",
+        "{\"color\":\"dark_gray\",\"extra\":[{\"color\":\"blue\",\"text\":\"Ward\"},{\"color\":\"dark_gray\",\"text\":\" rune onto an\"}],\"text\":\"carve the \"}",
+        "{\"color\":\"dark_gray\",\"text\":\"applicable item.\"}",
+        "\"\"",
+        "{\"color\":\"gray\",\"extra\":[{\"color\":\"blue\",\"italic\":false,\"text\":\"Helmets,\"}],\"italic\":false,\"text\":\"Applicable Armor: \"}",
+        "{\"color\":\"blue\",\"italic\":false,\"text\":\"Chestplates, Leggings, Boots \"}",
+        "\"\"",
+        "{\"color\":\"gray\",\"italic\":false,\"text\":\"When on Armor:\"}",
+        "{\"color\":\"dark_green\",\"italic\":false,\"text\":\" +3 Armor \"}"
+      ],
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

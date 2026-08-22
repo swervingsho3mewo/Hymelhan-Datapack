@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "11 ",
+    "11 ",
+    "   "
+  ],
+  "key": {
+    "1": [
+      "minecraft:gray_terracotta"
+    ]
+  },
+  "result": {
+    "id": "minecraft:gray_glazed_terracotta",
+    "count": 4
+  }
+}

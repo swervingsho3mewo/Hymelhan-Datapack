@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    "minecraft:lime_terracotta"
+  ],
+  "result": {
+    "id": "minecraft:lime_glazed_terracotta"
+  }
+}

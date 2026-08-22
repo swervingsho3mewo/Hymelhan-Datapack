@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "carved_runestone",
+  "category": "misc",
+  "pattern": [
+    "121",
+    "232",
+    "121"
+  ],
+  "key": {
+    "1": "minecraft:stone",
+    "2": "minecraft:stone_bricks",
+    "3": "minecraft:amethyst_shard"
+  },
+  "result": {
+    "id": "minecraft:netherite_upgrade_smithing_template",
+    "components": {
+      "minecraft:item_name": "{\"color\":\"aqua\",\"italic\":false,\"text\":\"Blank Runestone Tablet\"}",
+      "minecraft:hide_additional_tooltip": {},
+      "minecraft:item_model": "minecraft:runestone_tablet",
+      "minecraft:lore": [
+        "{\"color\":\"dark_gray\",\"text\":\"A stone tablet specially crafted \"}",
+        "{\"color\":\"dark_gray\",\"text\":\"to be able to effectively hold and \"}",
+        "{\"color\":\"dark_gray\",\"text\":\"channel runes. \"}"
+      ],
+      "minecraft:max_stack_size": 16
+    }
+  }
+}

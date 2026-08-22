@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:command_block",
+          "components": {
+            "minecraft:custom_data": {
+              "virukliv": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5,
+    "function": "hysteria:items/virukliv/drink"
+  }
+}

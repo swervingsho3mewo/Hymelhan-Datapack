@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mushroom_planks",
+  "category": "building",
+  "pattern": [
+    "12",
+    "21"
+  ],
+  "key": {
+    "1": [
+      "minecraft:red_mushroom",
+      "minecraft:crimson_fungus"
+    ],
+    "2": [
+      "minecraft:crimson_fungus",
+      "minecraft:red_mushroom"
+    ]
+  },
+  "result": {
+    "id": "minecraft:crimson_planks",
+    "count": 2
+  }
+}

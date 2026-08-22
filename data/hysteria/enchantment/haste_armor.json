@@ -1,0 +1,32 @@
+{
+  "anvil_cost": 1,
+  "description": "Haste",
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.01,
+          "per_level_above_first": 1
+        },
+        "attribute": "minecraft:movement_speed",
+        "id": "hysteria:haste_armor",
+        "operation": "add_value"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "slots": [
+    "armor"
+  ],
+  "supported_items": "#hysteria:armor",
+  "weight": 1
+}

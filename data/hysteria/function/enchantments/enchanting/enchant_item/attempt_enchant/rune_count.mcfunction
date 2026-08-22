@@ -1,0 +1,3 @@
+execute as @n[type=item,tag=global.enchantment_table.enchantable] store result score @s global.enchantments.count run data get entity @s Item.components."minecraft:custom_data".rune_count
+execute as @n[type=item,tag=global.enchantment_table.enchantable] run scoreboard players operation @s global.enchantments.count += 1 global.num
+execute as @n[type=item,tag=global.enchantment_table.enchantable] store result entity @s Item.components."minecraft:custom_data".rune_count int 1 run scoreboard players get @s global.enchantments.count

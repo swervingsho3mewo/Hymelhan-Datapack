@@ -1,0 +1,32 @@
+{
+  "anvil_cost": 1,
+  "description": "Haste",
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 10,
+          "per_level_above_first": 1
+        },
+        "attribute": "minecraft:mining_efficiency",
+        "id": "hysteria:haste_tool",
+        "operation": "add_value"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#hysteria:tools",
+  "weight": 1
+}

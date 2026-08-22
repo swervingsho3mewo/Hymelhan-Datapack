@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mushroom_planks",
+  "category": "building",
+  "pattern": [
+    "12",
+    "21"
+  ],
+  "key": {
+    "1": [
+      "minecraft:brown_mushroom",
+      "minecraft:warped_fungus"
+    ],
+    "2": [
+      "minecraft:warped_fungus",
+      "minecraft:brown_mushroom"
+    ]
+  },
+  "result": {
+    "id": "minecraft:warped_planks",
+    "count": 2
+  }
+}

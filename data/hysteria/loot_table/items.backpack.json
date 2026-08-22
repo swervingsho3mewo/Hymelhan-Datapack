@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bundle",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:equippable": {
+                  "slot": "chest",
+                  "asset_id": "minecraft:leather",
+                  "allowed_entities": "minecraft:player",
+                  "dispensable": false,
+                  "swappable": true,
+                  "damage_on_hurt": false,
+                  "equip_on_interact": false
+                },
+                "minecraft:lore": [
+                  "{\"text\":\"A backpack crafted to contain the\"}",
+                  "{\"text\":\"many items you discover on your\"}",
+                  "{\"text\":\"adventures throughout the lands.\"}",
+                  "{\"text\":\" \"}",
+                  "{\"italic\":false,\"color\":\"gray\",\"text\":\"When on Body:\"}",
+                  "{\"italic\":false,\"color\":\"dark_green\",\"text\":\" +3 Armor\"}",
+                  "{\"text\":\" \"}",
+                  "{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"text\":\"Uncommon\"}"
+                ],
+                "minecraft:custom_name": "{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"text\":\"Traveler's Backpack\"}",
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "type": "minecraft:armor",
+                      "id": "armor",
+                      "amount": 3,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    }
+                  ],
+                  "show_in_tooltip": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

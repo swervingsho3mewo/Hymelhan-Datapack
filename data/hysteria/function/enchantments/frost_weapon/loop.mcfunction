@@ -1,0 +1,2 @@
+execute as @e[tag=global.enchantments.frost] at @s run function hysteria:enchantments/frost_weapon/stop
+execute as @e[type=block_display,tag=global.enchantments.frost_ice] at @s unless entity @e[tag=global.enchantments.frost,distance=..1] run kill @s

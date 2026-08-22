@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "11 ",
+    "11 ",
+    "   "
+  ],
+  "key": {
+    "1": [
+      "minecraft:blue_terracotta"
+    ]
+  },
+  "result": {
+    "id": "minecraft:blue_glazed_terracotta",
+    "count": 4
+  }
+}

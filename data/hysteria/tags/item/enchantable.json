@@ -1,0 +1,17 @@
+{
+    "values": [
+        "#hysteria:armor",
+        "#hysteria:tools",
+        "#hysteria:weapons_melee",
+        "#hysteria:weapons_ranged",
+        "minecraft:fishing_rod",
+        "minecraft:carrot_on_a_stick",
+        "minecraft:warped_fungus_on_a_stick",
+        "minecraft:shears",
+        "minecraft:trident",
+        "minecraft:shield",
+        "minecraft:elytra",
+        "minecraft:brush",
+        "minecraft:flint_and_steel"
+    ]
+}

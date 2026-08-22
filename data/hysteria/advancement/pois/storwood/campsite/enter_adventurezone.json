@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "entered_zone": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 1550,
+                "max": 1566
+              },
+              "y": {
+                "min": 37,
+                "max": 79
+              },
+              "z": {
+                "min": 1954,
+                "max": 1975
+              }
+            },
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hysteria:locations/pois/storwood/campsite/enter_adventurezone"
+  }
+}

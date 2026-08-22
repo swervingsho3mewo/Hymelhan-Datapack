@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:magenta_dye",
+    "#minecraft:terracotta",
+    "#minecraft:terracotta",
+    "#minecraft:terracotta",
+    "#minecraft:terracotta",
+    "#minecraft:terracotta",
+    "#minecraft:terracotta",
+    "#minecraft:terracotta",
+    "#minecraft:terracotta"
+  ],
+  "result": {
+    "id": "magenta_terracotta",
+    "count": 8
+  }
+}

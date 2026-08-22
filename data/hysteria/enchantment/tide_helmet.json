@@ -1,0 +1,32 @@
+{
+  "anvil_cost": 1,
+  "description": "Tide",
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 5,
+          "per_level_above_first": 1
+        },
+        "attribute": "minecraft:oxygen_bonus",
+        "id": "hysteria:tide_helmet",
+        "operation": "add_value"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 1
+  },
+  "slots": [
+    "head"
+  ],
+  "supported_items": "#minecraft:head_armor",
+  "weight": 1
+}

@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "entered_zone": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": { "min": 1199, "max": 1202 },
+              "y": { "min": 82, "max": 85 },
+              "z": { "min": 2236, "max": 2240 }
+            },
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hysteria:locations/underrealm/storwood_to_underrealm"
+  }
+}

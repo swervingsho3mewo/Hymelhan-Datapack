@@ -1,0 +1,1 @@
+effect give @e[distance=..32] glowing 1 0 true

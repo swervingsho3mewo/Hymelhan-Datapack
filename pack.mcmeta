@@ -1,7 +1,7 @@
 {
   "pack": {
-    "pack_format": 48,
-    "description": "The main datapack for the Hysteria adventure map!"
+    "pack_format": 61,
+    "description": "The main datapack for the Hymelhan Adventuremap!"
   },
 	"filter": {
 		"block": [{

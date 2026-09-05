@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "enter": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": -100,
+                "max": 35
+              },
+              "y": {
+                "min": 54,
+                "max": 218
+              },
+              "z": {
+                "min": 2899,
+                "max": 3043
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hysteria:story/ven_dehren/enter_adventurezone"
+  }
+}

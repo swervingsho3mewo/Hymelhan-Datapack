@@ -53,7 +53,7 @@ scoreboard objectives add local.ven_dehren.ward_status dummy
 scoreboard objectives add global.player.damage_dealt dummy
 
 scoreboard objectives add global.player.kills minecraft.custom:minecraft.mob_kills
-scoreboard objectives add global.player.health health
+scoreboard objectives add global.player.health dummy
 
 scoreboard objectives add global.enchantments.bane.damage dummy
 scoreboard objectives add global.enchantments.count dummy
@@ -62,3 +62,14 @@ schedule function hysteria:items/grapple/load 20
 
 scoreboard objectives add settings trigger
 scoreboard players enable @a settings
+
+scoreboard objectives add local.ven_dehren.generator dummy
+scoreboard objectives add local.ven_dehren.generator_timer dummy
+
+scoreboard objectives add intro_cutscene dummy
+scoreboard objectives add player_count dummy
+scoreboard objectives add ball_timer dummy
+scoreboard objectives add intro_length dummy
+scoreboard players set @e[tag=intro_cutscene.pos,type=marker] intro_length 2300
+
+scoreboard objectives add fast_travel_launch dummy

@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "hold_crystal": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": "minecraft:amethyst_shard",
+                  "predicates": {
+                    "minecraft:custom_data": {
+                      "TowerCrystal": true
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "hysteria:global/fast_travel/check"
+  }
+}

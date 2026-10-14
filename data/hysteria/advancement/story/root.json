@@ -23,7 +23,7 @@
     }
   },
   "rewards": {
-    "function": "hysteria:join",
+    "function": "hysteria:story/join",
     "recipes": []
   }
 }

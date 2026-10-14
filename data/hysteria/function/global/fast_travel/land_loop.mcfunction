@@ -1,0 +1,2 @@
+execute as @a[tag=fast_travel.teleport.user] at @s run playsound minecraft:item.trident.thunder ambient @a ~ ~-5 ~ 1 1
+execute as @a[tag=fast_travel.land.user] at @s run function hysteria:global/fast_travel/land

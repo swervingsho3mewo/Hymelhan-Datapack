@@ -19,3 +19,5 @@ particle end_rod -61.50 127 2957.50 0.5 2.5 1.5 0 50 force
 fill -62 124 2958 -62 129 2956 light[level=0]
 particle end_rod -47.50 127.00 2964.00 0.5 2.5 1 0 50 force
 fill -48 125 2964 -48 129 2963 light[level=0]
+particle minecraft:end_rod -67.50 100.00 2964.50 0.25 0.5 0.25 0 10 force
+fill -68 100 2964 -68 99 2964 light[level=0]

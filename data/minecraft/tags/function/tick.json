@@ -1,5 +1,4 @@
 {
-    "values": [
-        "hysteria:tick"
-    ]
+	"replace": false,
+	"values": ["animated_java:global/data_manager/on_tick", "hysteria:tick", "animated_java:global/on_tick"]
 }

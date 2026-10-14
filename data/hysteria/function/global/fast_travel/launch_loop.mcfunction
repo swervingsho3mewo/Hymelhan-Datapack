@@ -1,0 +1,1 @@
+execute as @a[tag=fast_travel.launch.user] at @s run function hysteria:global/fast_travel/launch

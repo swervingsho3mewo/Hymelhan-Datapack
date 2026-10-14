@@ -1,1 +1,0 @@
-execute if score status local.ven_dehren.generator matches 1 run function hysteria:story/ven_dehren/ameryite_generator/execute

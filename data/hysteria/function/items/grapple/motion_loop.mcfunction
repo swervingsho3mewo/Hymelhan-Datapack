@@ -1,1 +1,0 @@
-execute at @a[tag=global.items.grapple.player] as @n[tag=global.items.grapple.pos,type=armor_stand,predicate=!hysteria:global.id_match] at @s run function hysteria:items/grapple/motion

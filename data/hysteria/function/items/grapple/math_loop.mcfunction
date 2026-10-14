@@ -1,1 +1,0 @@
-execute as @a[tag=global.items.grapple.player] run function hysteria:items/grapple/math

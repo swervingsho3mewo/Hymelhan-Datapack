@@ -1,0 +1,3 @@
+execute unless entity @a[tag=fast_travel.launch.user] run advancement revoke @s only hymelhan:story/fast_travel/initiate
+execute as @a[distance=..1,tag=!fast_travel.launch.user] at @s if entity @n[type=marker,distance=..0.3,tag=fast_travel.launch.activated] unless entity @a[tag=fast_travel.launch.user] run function hymelhan:global/fast_travel/launch
+data modify storage hymelhan:tower tower_number set from entity @s SelectedItem.components."minecraft:custom_data".tower_number

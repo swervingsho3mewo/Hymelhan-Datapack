@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tinted_glass"
+    },
+    "title": {
+      "text": "Magic Technician",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "Unlocking the secrets of Ven’Eihn, one fuse at a time - Disabled the Ven'Dehren ward",
+      "color": "green"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "hymelhan:story/emerge",
+  "criteria": {
+    "e": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "hymelhan:story/ven_dehren/ward_disable"
+  }
+}

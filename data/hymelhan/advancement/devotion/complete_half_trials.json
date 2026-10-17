@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_sapling",
+      "count": 1
+    },
+    "title": {
+      "text": "Enlightened",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "\"Life became good. Good became evil. Light still shone, uncaring.\" - Completed half of the Divine's Trials.",
+      "color": "green"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "hymelhan:devotion/complete_all_trials_single_god",
+  "criteria": {
+  "requirement": {
+    "trigger": "minecraft:impossible"
+  }
+  },
+  "rewards": {
+  }
+}

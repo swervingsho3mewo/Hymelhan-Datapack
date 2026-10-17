@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wheat_seeds",
+      "count": 1
+    },
+    "title": {
+      "text": "Devotee",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "\"Up became down. Left turned to right. Great became small. All was changed.\" - Completed a Divine Trial.",
+      "color": "green"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "hymelhan:devotion/root",
+  "criteria": {
+  "requirement": {
+    "trigger": "minecraft:impossible"
+  }
+  },
+  "rewards": {
+  }
+}

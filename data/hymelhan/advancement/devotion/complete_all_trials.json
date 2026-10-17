@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_sapling",
+      "count": 1,
+    "components": {
+    "minecraft:item_model": "minecraft:sacred_sapling"
+    }
+    },
+    "title": {
+      "text": "All",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "\"Light became you. You became all. You are all. All is you.\" - Completed every Divine Trial, and became All.",
+      "color": "green"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "hymelhan:devotion/complete_half_trials",
+  "criteria": {
+  "requirement": {
+    "trigger": "minecraft:impossible"
+  }
+  },
+  "rewards": {
+  }
+}

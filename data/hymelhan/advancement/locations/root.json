@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:polished_andesite",
+      "count": 1
+    },
+    "title": {
+      "text": "Exploration",
+      "color": "blue"
+    },
+    "description": {
+      "text": "This realm holds many secrets and mysteries. Will you find them all, young one?",
+      "color": "green"
+    },
+    "background": "minecraft:textures/block/moss_block.png",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "enter": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+  }
+}

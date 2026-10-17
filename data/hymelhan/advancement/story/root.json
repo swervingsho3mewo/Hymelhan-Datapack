@@ -2,14 +2,17 @@
   "display": {
     "icon": {
       "id": "minecraft:amethyst_shard",
-      "count": 1
+      "count": 1,
+    "components": {
+    "minecraft:item_model": "minecraft:tower_shard"
+    }
     },
     "title": {
       "text": "Remnants",
       "color": "light_purple"
     },
     "description": {
-      "text": "What remains of this realm calls out to you, in strange, resonating whispers. What will you find within?",
+      "text": "What remains of this realm calls out to you in strange, resonating whispers. What will you find within?",
       "color": "green"
     },
     "background": "minecraft:textures/block/stone_bricks.png",

@@ -1,4 +1,5 @@
 # go down
+advancement grant @s only hymelhan:story/fast_travel/use
 tag @s remove fast_travel.teleport.user
 execute unless entity @s[nbt={OnGround:1b}] run attribute @s minecraft:gravity base set 50
 execute unless entity @s[nbt={OnGround:1b}] run attribute @s minecraft:fall_damage_multiplier base set -1

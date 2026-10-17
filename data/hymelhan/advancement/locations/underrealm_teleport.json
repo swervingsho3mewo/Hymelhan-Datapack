@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_mushroom_block",
+      "count": 1
+    },
+    "title": {
+      "text": "Wormholes",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "Did I just... teleport? - Utilized the Underrealm's properties to travel greater distances.",
+      "color": "green"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "hymelhan:locations/underrealm",
+  "criteria": {
+  "requirement": {
+    "trigger": "minecraft:impossible"
+  }
+  },
+  "rewards": {
+  }
+}

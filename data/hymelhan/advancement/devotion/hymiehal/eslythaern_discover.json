@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:yellow_terracotta",
+      "count": 1
+    },
+    "title": {
+      "text": "Higher Branches",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "\"And so Light protected these lands from the terrors of the Draevahni.\" - Discovered Eslýthærn, sacred tree of Hymiehal.",
+      "color": "green"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "hymelhan:devotion/root",
+  "criteria": {
+    "enter": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 5100,
+                "max": 5310
+              },
+              "y": {
+                "min": 60,
+                "max": 270
+              },
+              "z": {
+                "min": 850,
+                "max": 1050
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:stick",
+      "count": 1
+    },
+    "title": {
+      "text": "True Devotee",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "\"Nothing became everything. Dust became life. The realm was formed.\" - Completed all of a god's Divine Trials.",
+      "color": "green"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "hymelhan:devotion/complete_trial",
+  "criteria": {
+  "requirement": {
+    "trigger": "minecraft:impossible"
+  }
+  },
+  "rewards": {
+  }
+}

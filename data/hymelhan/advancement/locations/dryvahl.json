@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sandstone",
+      "count": 1
+    },
+    "title": {
+      "text": "Fevered Sailors",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "A group of battered and broken sailors to match the shattered land they live upon. Fitting, isn't it? - Discovered Port Dryvahl.",
+      "color": "green"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "hymelhan:locations/root",
+  "criteria": {
+    "enter": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 3200,
+                "max": 3435
+              },
+              "y": {
+                "min": 60,
+                "max": 120
+              },
+              "z": {
+                "min": 1120,
+                "max": 1385
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+  }
+}

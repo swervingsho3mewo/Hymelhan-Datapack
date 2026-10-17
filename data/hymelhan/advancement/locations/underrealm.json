@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_nylium",
+      "count": 1
+    },
+    "title": {
+      "text": "Shadowed Realm",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "\"The earth was split, a new realm unveiled\" How could an entirely different land have hidden under our feet for so long, yet lie undiscovered? - Discovered the Underrealm.",
+      "color": "green"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "hymelhan:locations/root",
+  "criteria": {
+    "enter": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": -1000,
+                "max": -540
+              },
+              "y": {
+                "min": 0,
+                "max": 50
+              },
+              "z": {
+                "min": 2380,
+                "max": 3400
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+  }
+}

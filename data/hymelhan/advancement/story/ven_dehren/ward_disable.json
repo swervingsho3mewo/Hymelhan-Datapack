@@ -8,14 +8,14 @@
       "color": "aqua"
     },
     "description": {
-      "text": "Unlocking the secrets of Ven’Eihn, one fuse at a time - Disabled the Ven'Dehren ward",
+      "text": "Unlocking the secrets of Ven’Eihn, one fuse at a time. - Disabled the Ven'Dehren ward.",
       "color": "green"
     },
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "hymelhan:story/emerge",
+  "parent": "hymelhan:story/ven_dehren/enter",
   "criteria": {
     "e": {
       "trigger": "minecraft:impossible"

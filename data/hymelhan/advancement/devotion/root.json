@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_sapling",
+      "count": 1
+    },
+    "title": {
+      "text": "Devotion",
+      "color": "yellow"
+    },
+    "description": {
+      "text": "The gods of this realm demand your recognition. Who will you follow? One, or many?",
+      "color": "green"
+    },
+    "background": "minecraft:textures/block/stripped_dark_oak_log.png",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "enter": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mangrove_log",
+      "count": 1
+    },
+    "title": {
+      "text": "Heart of the Swamps",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "Hub of alchemy, home of many, this was once a great citadel. To think an entire city could sink below the swamps in such a short time, it's almost terrifying... - Discovered the Great Citadel of Mor'Tej.",
+      "color": "green"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "hymelhan:locations/ahkol_manor",
+  "criteria": {
+    "enter": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "x": {
+                "min": -920,
+                "max": -850
+              },
+              "y": {
+                "min": 60,
+                "max": 100
+              },
+              "z": {
+                "min": 1420,
+                "max": 1510
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+  }
+}

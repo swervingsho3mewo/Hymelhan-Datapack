@@ -8,3 +8,8 @@ execute as @a[nbt={SelectedItem:{id:"minecraft:crossbow",count:1,components:{"mi
 execute as @a store result score @s global.player.health run data get entity @s Health
 
 execute as @a if score @s settings matches 1.. run function hymelhan:global/settings/trigger
+
+# ///// Border /////
+execute as @a at @s if biome ~ 1023 ~ #hymelhan:no-go run function hymelhan:border/in_border
+execute as @a at @s unless biome ~ 1023 ~ #hymelhan:no-go run function hymelhan:border/out_border
+execute as @e[type=ender_pearl] at @s if biome ~ ~ ~ #hymelhan:no-go run function hymelhan:border/pearl

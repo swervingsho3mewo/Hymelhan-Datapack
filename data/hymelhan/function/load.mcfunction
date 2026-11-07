@@ -73,3 +73,8 @@ scoreboard objectives add intro_length dummy
 scoreboard players set @e[tag=intro_cutscene.pos,type=marker] intro_length 2300
 
 scoreboard objectives add fast_travel_launch dummy
+
+# ///// Border /////
+scoreboard objectives add global.border.time dummy
+
+scoreboard objectives add global.border.helmet_id dummy
